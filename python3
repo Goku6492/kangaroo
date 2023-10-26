@@ -1,0 +1,14 @@
+usage: kangaroo2.py [-h] -range RANGE [-ncore NCORE] [-n N]
+
+This tool uses Kangaroo algorithm for generating Bitcoin addresses within a
+specified key range and comparing them to a target compressed address using
+multiple CPU cores.
+
+options:
+  -h, --help    show this help message and exit
+  -range RANGE  Key range to generate addresses from in hexadecimal format
+                (e.g., 20000000522b08b17:3ffffffffffffffff)
+  -ncore NCORE  Number of CPU cores to use. default = Total - 1
+  -n N          Total range to search in one loop. default=72057594037927935
+
+Enjoy the program! :) Tips BTC: bc1q39meky2mn5qjq704zz0nnkl0v7kj4uz6r529at
